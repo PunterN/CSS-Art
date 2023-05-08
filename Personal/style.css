@@ -454,9 +454,9 @@
     background-color: #fff;
     width: 27px;
     top: 407px;
-    border-radius: 1px 4px 4px 6px;
+    border-radius: 0px 0px 6px 6px;
     margin-bottom: 15px;
-    border: 1px solid black;
+    border: 1px solid #7c7c7c;
     clear: both;
     transform: rotate(180deg);
 }
