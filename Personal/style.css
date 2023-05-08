@@ -473,3 +473,89 @@
     transform: rotate(270deg);
     box-shadow: -1px -2px 5px 0px rgba(0,0,0,.8);
 }
+
+
+.ribbon {
+    position: absolute;
+    left: 170%;
+    top: 108%;
+    display: block;
+    margin: 100px -200px;
+    width: 200px;
+    height: 36px;
+    border: 2px solid #aaa;
+    font: normal 23px/43px 'Rye';
+    text-align: center;
+    color: #aaa;
+    background: #fff;
+    border-radius: 10px 10px 40px 40px;
+    box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+}
+.ribbonStart {
+    position: absolute;
+    left: 107%;
+    top: 89%;
+    display: block;
+    margin: 100px -200px;
+    width: 163px;
+    height: 36px;
+    border: 2px solid #aaa;
+    font: normal 20px/43px 'Rye';
+    text-align: center;
+    color: #aaa;
+    background: #fff;
+    border-radius: 24px 40px 2px 16px;
+    box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+    transform: rotate(-22deg);
+}
+.ribbonEnd {
+    position: absolute;
+    left: 243%;
+    top: 89%;
+    display: block;
+    margin: 100px -200px;
+    width: 163px;
+    height: 36px;
+    border: 2px solid #aaa;
+    font: normal 20px/43px 'Rye';
+    text-align: center;
+    color: #aaa;
+    background: #fff;
+    border-radius: 7px 40px 35px 27px;
+    box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
+    transform: rotate(22deg);
+}
+.ribbonEndTrim {
+    position: absolute;
+    left: 294%;
+    top: 93%;
+    display: block;
+    margin: 100px -200px;
+    width: 49px;
+    height: 34px;
+    border: 2px solid #565555;
+    font: normal 20px/43px 'Rye';
+    text-align: center;
+    color: #aaa;
+    background: #565555;
+    border-radius: 4px 4px 13px 10px;
+    box-shadow: -6px -2px 12px 0px rgba(0,0,0,.8);
+    transform: rotate(-50deg);
+}
+.ribbonStartTrim {
+    position: absolute;
+    left: 102%;
+    top: 94%;
+    display: block;
+    margin: 100px -200px;
+    width: 49px;
+    height: 34px;
+    border: 2px solid #565555;
+    font: normal 20px/43px 'Rye';
+    text-align: center;
+    color: #aaa;
+    background: #565555;
+    border-radius: 4px 5px 13px 14px;
+    box-shadow: 8px -2px 12px 0px rgba(0,0,0,.8);
+    transform: rotate(48deg);
+}
