@@ -1,0 +1,21 @@
+.icon {
+  width: 2em;
+}
+
+.darkBG {
+  background-color: black;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#background {
+  transition: linear 0.25s;
+}
+
+#refs {
+  position: absolute;
+  bottom: 0.5em;
+}
