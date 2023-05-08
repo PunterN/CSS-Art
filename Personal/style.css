@@ -347,3 +347,116 @@
     border-right: 20px solid transparent;
     border-bottom: 55px solid #636365;
 }
+.blackLine1 {
+    position: absolute;
+    height: 20px;
+    left: 282px;
+    width: 46px;
+    top: 386px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(71deg);
+}
+.blackLine2 {
+    position: absolute;
+    height: 20px;
+    left: 288px;
+    width: 46px;
+    top: 384px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(76deg);
+}
+.blackLine3 {
+    position: absolute;
+    height: 20px;
+    left: 294px;
+    width: 46px;
+    top: 382px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(82deg);
+}
+.blackLine4 {
+    position: absolute;
+    height: 20px;
+    left: 298px;
+    width: 46px;
+    top: 382px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(92deg);
+}
+.blackLine5 {
+    position: absolute;
+    height: 20px;
+    left: 303px;
+    width: 46px;
+    top: 381px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(102deg);
+}
+
+.blackLine6 {
+    position: absolute;
+    height: 20px;
+    left: 292px;
+    width: 33px;
+    top: 411px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(104deg);
+}
+.blackLine7 {
+    position: absolute;
+    height: 20px;
+    left: 297px;
+    width: 35px;
+    top: 413px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(95deg);
+}
+.blackLine8 {
+    position: absolute;
+    height: 20px;
+    left: 305px;
+    width: 30px;
+    top: 416px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(85deg);
+}
+.blackLine9 {
+    position: absolute;
+    height: 20px;
+    left: 312px;
+    width: 28px;
+    top: 417px;
+    margin-bottom: 15px;
+    border-top: 1px solid black;
+    clear: both;
+    transform: rotate(78deg);
+}
+.clamRibbon {
+    position: absolute;
+    height: 14px;
+    left: 310px;
+    background-color: #fff;
+    width: 27px;
+    top: 407px;
+    border-radius: 1px 4px 4px 6px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    clear: both;
+    transform: rotate(180deg);
+}
