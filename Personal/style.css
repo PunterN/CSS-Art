@@ -350,7 +350,7 @@
 .blackLine1 {
     position: absolute;
     height: 20px;
-    left: 282px;
+    left: 280px;
     width: 46px;
     top: 386px;
     margin-bottom: 15px;
@@ -361,24 +361,24 @@
 .blackLine2 {
     position: absolute;
     height: 20px;
-    left: 288px;
+    left: 287px;
     width: 46px;
     top: 384px;
     margin-bottom: 15px;
     border-top: 1px solid black;
     clear: both;
-    transform: rotate(76deg);
+    transform: rotate(80deg);
 }
 .blackLine3 {
     position: absolute;
     height: 20px;
-    left: 294px;
+    left: 293px;
     width: 46px;
     top: 382px;
     margin-bottom: 15px;
     border-top: 1px solid black;
     clear: both;
-    transform: rotate(82deg);
+    transform: rotate(86deg);
 }
 .blackLine4 {
     position: absolute;
@@ -394,7 +394,7 @@
 .blackLine5 {
     position: absolute;
     height: 20px;
-    left: 303px;
+    left: 305px;
     width: 46px;
     top: 381px;
     margin-bottom: 15px;
@@ -402,7 +402,6 @@
     clear: both;
     transform: rotate(102deg);
 }
-
 .blackLine6 {
     position: absolute;
     height: 20px;
