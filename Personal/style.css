@@ -7,30 +7,70 @@
 }
 
 .shield__curve {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 75%;
-  background-color: #ff0000;
-  border-radius: 0 0 50% 50%; /* set the desired amount of curve */
-  z-index:1;
+    position: relative;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    top: 200px;
+    height: 75%;
+    background-color: #ff0000;
+    border-radius: 0 0 50% 50%;
+    z-index: 1;
+}
+.ribbon {
+    position: absolute;
+    left: 200%;
+    top: 103%;
+    display: block;
+    margin: 100px -200px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid #8a1;
+    font: normal 30px/60px 'Rye';
+    text-align: center;
+    color: #451;
+    background: #9b2;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
 }
 
-.ribbon {
-  position: absolute;
-  bottom: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 120px;
-  height: 25px;
-  background-color: #ff0000;
-  border-radius: 0 0 50% 50%;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  text-align: center;
-  line-height: 25px;
-  font-weight: bold;
-  color: #fff;
-  z-index: 0;
+.ribbon::before{
+	  content: 'LIBERTAS';
+     font: message-box;
+    font-family: serif;
+    position: absolute;
+    z-index: -1;
+    left: -150px;
+    top: -40px;
+    display: block;
+    width: 100px;
+    height: 0px;
+    border: 30px solid #9b2;
+    border-right: 20px solid #791;
+    border-bottom-color: #94b81e;
+    border-left-color: transparent;
+    transform: rotate(-15deg);
+}
+.ribbon::after {
+    font: message-box;
+    font-family: serif;
+    position: absolute;
+    z-index: -1;
+    left: -150px;
+    top: -40px;
+    display: block;
+    width: 100px;
+    height: 0px;
+    border: 30px solid #9b2;
+    border-right: 20px solid #791;
+    border-bottom-color: #94b81e;
+    border-left-color: transparent;
+transform: rotate(-15deg);}
+
+.ribbon::after {
+  left: auto;
+  right: -70px;
+  border-left: 20px solid #791;
+  border-right: 30px solid transparent;
+  transform: rotate(5deg);
 }
