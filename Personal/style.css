@@ -258,3 +258,92 @@
     z-index: 2;
     transform: rotate(-180deg);
 }
+
+
+.triangle {
+    width: 0;
+    height: 0px;
+    left: 295px;
+    top: 381px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 55px solid #636365;
+    transform: rotate(180deg);
+}
+.wave1, .wave2, .wave3, .wave4,.wave5, .wave6, .wave7, .wave8 {
+    content: '';
+    background-color: #636365;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+.wave1 {
+    top: 400px;
+    left: 318px;
+}
+.wave2 {
+    left: 309px;
+    top: 399px;
+}
+.wave3 {
+    top: 370px;
+    left: 334px;
+}
+.wave4 {
+    left: 296px;
+    top: 370px;
+}
+.wave5 {
+    top: 368px;
+    left: 318px;
+}
+.wave6 {
+       left: 309px;
+    top: 368px;
+}
+.wave7 {
+    top: 369px;
+    left: 326px;
+}
+.wave8 {
+    left: 301px;
+    top: 369px;
+}
+.wave9 {
+    left: 306px;
+    top: 428px;
+}
+.wave10 {
+    top: 430px;
+    left: 313px;
+}
+.wave11 {
+    left: 319px;
+    top: 430px;
+}
+.wave12 {
+    top: 429px;
+    left: 326px;
+}
+.wave13 {
+    left: 331px;
+    top: 427px;
+}
+.wave9, .wave10, .wave11, .wave12, .wave13 {
+    content: '';
+    background-color: #636365;
+    border-radius: 50%;
+    height: 13px;
+    position: absolute;
+    width: 13px;
+}
+.triangle1 {
+    width: 0;
+    height: 0px;
+    left: 305px;
+    top: 381px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 55px solid #636365;
+}
