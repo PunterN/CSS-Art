@@ -749,12 +749,12 @@ h1 {
     background: linear-gradient(90deg, #0000, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 9s infinite;
+    animation: shine 9s infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgb(116 116 116 / 0%);
 
 }
-      @keyframes animate {
+      @keyframes shine {
         0% {
           background-position: -500%;
         }
