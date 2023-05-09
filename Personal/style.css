@@ -12,9 +12,9 @@
     right: 0;
     top: 200px;
     height: 75%;
-    /* background-color: #ff0000; */
+    background-color: #fff;
     border-radius: 0 0 50% 50%;
-    z-index: 1;
+    z-index: 0;
     border: 3px solid #000;
 }
 .shieldDecorationTop {
@@ -84,6 +84,7 @@
     border-radius: 16px 3px 3px 15px;
     margin: 0;
     padding: 0;
+	    z-index: 5;
 }
 .bookTop {
     box-sizing: inherit;
@@ -176,6 +177,7 @@
     border-radius: 16px 3px 3px 15px;
     margin: 0;
     padding: 0;
+	    z-index: 5;
 }
 .bookTop1 {
     box-sizing: inherit;
@@ -269,6 +271,7 @@
     border-right: 30px solid transparent;
     border-bottom: 55px solid #636365;
     transform: rotate(180deg);
+	    z-index: 5;
 }
 .wave1, .wave2, .wave3, .wave4,.wave5, .wave6, .wave7, .wave8 {
     content: '';
@@ -277,6 +280,7 @@
     height: 20px;
     position: absolute;
     width: 20px;
+	    z-index: 5;
 }
 .wave1 {
     top: 400px;
@@ -337,6 +341,7 @@
     height: 13px;
     position: absolute;
     width: 13px;
+	    z-index: 5;
 }
 .triangle1 {
     width: 0;
@@ -346,6 +351,7 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 55px solid #636365;
+	    z-index: 5;
 }
 .blackLine1 {
     position: absolute;
@@ -357,6 +363,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(71deg);
+	    z-index: 5;
 }
 .blackLine2 {
     position: absolute;
@@ -368,6 +375,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(80deg);
+	    z-index: 5;
 }
 .blackLine3 {
     position: absolute;
@@ -379,6 +387,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(86deg);
+	    z-index: 5;
 }
 .blackLine4 {
     position: absolute;
@@ -390,6 +399,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(92deg);
+	    z-index: 5;
 }
 .blackLine5 {
     position: absolute;
@@ -401,6 +411,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(102deg);
+	    z-index: 5;
 }
 .blackLine6 {
     position: absolute;
@@ -412,6 +423,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(104deg);
+	    z-index: 5;
 }
 .blackLine7 {
     position: absolute;
@@ -423,6 +435,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(95deg);
+	    z-index: 5;
 }
 .blackLine8 {
     position: absolute;
@@ -434,6 +447,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(85deg);
+	    z-index: 5;
 }
 .blackLine9 {
     position: absolute;
@@ -445,6 +459,7 @@
     border-top: 1px solid black;
     clear: both;
     transform: rotate(78deg);
+	    z-index: 5;
 }
 .clamRibbon {
     position: absolute;
@@ -458,6 +473,7 @@
     border: 1px solid #7c7c7c;
     clear: both;
     transform: rotate(180deg);
+	    z-index: 5;
 }
 .clamRibbon2 {
     position: absolute;
@@ -472,13 +488,14 @@
     clear: both;
     transform: rotate(270deg);
     box-shadow: -1px -2px 5px 0px rgba(0,0,0,.8);
+	    z-index: 5;
 }
 
 
 .ribbon {
     position: absolute;
     left: 170%;
-    top: 108%;
+    top: 99%;
     display: block;
     margin: 100px -200px;
     width: 200px;
@@ -487,13 +504,14 @@
     font: normal 23px/43px 'Rye';
     text-align: center;
     color: #aaa;
+	z-index:5;
     background: #fff;
     border-radius: 10px 10px 40px 40px;
     box-shadow: 0 0 30px rgba(0,0,0,.15) inset, 0 6px 10px rgba(0,0,0,.15);
 }
 .ribbonStart {
     position: absolute;
-    left: 107%;
+    left: 117%;
     top: 89%;
     display: block;
     margin: 100px -200px;
@@ -544,7 +562,7 @@
 }
 .ribbonStartTrim {
     position: absolute;
-    left: 102%;
+    left: 113%;
     top: 94%;
     display: block;
     margin: 100px -200px;
