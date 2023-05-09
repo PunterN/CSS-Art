@@ -3,6 +3,7 @@
   height: 350px;
   position: relative;
   z-index:1;
+  
 }
 
 .shieldCurve {
@@ -73,6 +74,7 @@
   margin:0;
   padding:0;
   position: absolute;
+  
 }
 
 .book {
@@ -732,4 +734,10 @@
     clear: both;
     transform: rotate(129deg);
     z-index: 6;
+}
+.uniName {
+    position: inherit;
+    top: 68px;
+    left: 229px;
+    text-align: center;
 }
