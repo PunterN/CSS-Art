@@ -737,7 +737,28 @@
 }
 .uniName {
     position: inherit;
-    top: 68px;
-    left: 229px;
+    top: 30px;
+    left: 180px;
     text-align: center;
 }
+h1 {
+   
+    position: absolute;
+    font-size: 45px;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #0000, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 9s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(116 116 116 / 0%);
+
+}
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
